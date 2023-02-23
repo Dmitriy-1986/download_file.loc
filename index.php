@@ -44,6 +44,8 @@ if(isset($_FILES['download_file'])) {
         echo "Ошибка: " . mysqli_error($conn);
     }
 }
+        
+mysqli_close($conn);
 ?>
 </div>
 </body>
