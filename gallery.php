@@ -33,7 +33,8 @@ require('connect_db.php');
                 В базе данных нет загруженных изображений!</p>";
             }
         } 
-        
+            
+        mysqli_close($conn);
         ?>
         </div>
     </div>
